@@ -1,5 +1,5 @@
 import assign from 'lodash.assign';
-import animationLabels from './animation_labels';
+import {animationLabels} from './animation_labels';
 const { addFilter } = wp.hooks;
 const { __ } = wp.i18n;
 const { createHigherOrderComponent } = wp.compose;

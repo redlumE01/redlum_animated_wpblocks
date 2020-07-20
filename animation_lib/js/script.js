@@ -1,4 +1,4 @@
-import animationClasses from './../../src/animation_classes';
+import {animationClasses} from './../../src/animation_labels';
 
 // ViewPort check function
 function elementInViewport(myElement) {
