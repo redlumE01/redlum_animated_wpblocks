@@ -15,7 +15,9 @@ module.exports = [
           loader: 'babel-loader',
           query: {
             presets: ['@babel/preset-env', '@babel/preset-react'],
-            plugins: ['transform-class-properties']
+            plugins: ['transform-class-properties',[ "@wordpress/babel-plugin-makepot", {
+              "output": "languages/redlum_amimatedblocks.pot"
+            } ]]
           }
         }]
     },

@@ -7,11 +7,12 @@ const { Fragment } = wp.element;
 const { InspectorControls } = wp.editor;
 const { PanelBody, SelectControl } = wp.components;
 
-const animationClasses = animationLabels, animationClassesSplit = animationClasses.split(',');
+const animationClasses = animationLabels,
+animationClassesSplit = animationClasses.split(',');
 
 const animationOptions = [
   {
-    label: __( 'None' ),
+    label: __( 'None', 'redlumAnimatedBlocksTrans'),
     value: 'none',
   }
 ];
@@ -81,9 +82,9 @@ const withSpacingControl = createHigherOrderComponent( ( BlockEdit ) => {
       <Fragment>
         <BlockEdit { ...props } />
         <InspectorControls>
-          <PanelBody title={ __( 'Animation setting' ) } initialOpen={ false } >
+          <PanelBody title={ __( 'Animation setting','redlumAnimatedBlocksTrans') } initialOpen={ false } >
             <SelectControl
-              label={ __( 'Animation type' ) }
+              label={ __( 'Animation type','redlumAnimatedBlocksTrans') }
               value={ customAttribute }
               options={ animationOptions }
               onChange={ ( selectedSpacingOption ) => {

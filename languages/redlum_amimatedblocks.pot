@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/index.js:15
+msgid "None"
+msgstr ""
+
+#: src/index.js:85
+msgid "Animation setting"
+msgstr ""
+
+#: src/index.js:87
+msgid "Animation type"
+msgstr ""

@@ -14,6 +14,7 @@
     "@babel/core": "^7.8.6",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.8.3",
+    "@wordpress/babel-plugin-makepot": "^4.1.2",
     "@wordpress/scripts": "^12.1.1",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
